@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: lightgreen;
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+        align-items: center;
+      }
+      .left {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .right {
+        display: flex;
+        justify-content: flex-end;  
+      }
+      .a{
+        padding: 10px;
+      }
+      a{text-decoration: none;
+        color: black;
+
+      }
+      a:hover { 
+        border: 1px solid darkred;
+        border-radius: 5px;
+      }
+      a:visited {
+       background-color: brown;
+      }
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <div class="a"><img src="cat.png" alt=""></div>
+        <div class="a"><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Functions</a></div>
+        <div class="a"><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">About</a></div>
+        <div class="a"><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Shop</a></div>
+      </div>
+      <div class="right">
+        <div class="a"><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">HU</a></div>
+        <div class="a"><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">EU</a></div>
+        <div class="a"><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Sign in</a></div>
+      </div>
+    </header>
+  </body>
+</html>
